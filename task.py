@@ -1,4 +1,6 @@
 import math
+import array
+from datetime import datetime
 
 
 def firstrun():
@@ -6,12 +8,11 @@ def firstrun():
 
 
 def radius_to_area(radius):
-    area = math.pi * math.sqrt(radius)
-    return area
+    area = math.pi * (radius*radius)
+    return round(area,2)
 
 
-def first_last(a_list):
-    temp_list = []
-    temp_list.append(a_list(0))
-    temp_list.append(a_list(-1))
-    return temp_list
+
+
+
+

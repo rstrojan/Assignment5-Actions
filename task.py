@@ -15,6 +15,3 @@ def time_delta(date1, date2):
     d1 = datetime.strptime(date1, "%m/%d/%Y")
     d2 = datetime.strptime(date2, "%m/%d/%Y")
     return abs(d2-d1).days
-
-
-

@@ -23,7 +23,6 @@ class Test(TestCase):
         result = task.time_delta(date1, date2)
         self.assertEqual(366, result)  # 88 was a leap year
 
-
     def test_first_last(self):
         my_arr = [1, 2, 3]
         result = task.first_last(my_arr)

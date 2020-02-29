@@ -1,6 +1,4 @@
 import math
-import array
-from datetime import datetime
 
 
 def firstrun():

@@ -7,10 +7,4 @@ def firstrun():
 
 def radius_to_area(radius):
     area = math.pi * (radius*radius)
-    return round(area,2)
-
-
-
-
-
-
+    return round(area, 2)
